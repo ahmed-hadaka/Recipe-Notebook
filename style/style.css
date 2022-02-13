@@ -1,0 +1,232 @@
+/* start home page */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.home-body {
+  font-family: "Open Sans", sans-serif;
+  background: rgb(241, 241, 241);
+}
+
+.header-container {
+  background-color: #343a40;
+  padding: 10px;
+}
+
+header h1 {
+  margin: 0%;
+  padding-left: 20px;
+  color: #fff;
+  font-weight: 200;
+}
+.search-text {
+  margin-top: -2px;
+  margin-right: 5px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fcf6f8;
+}
+
+header {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.body {
+  width: 84%;
+  margin: 0 auto;
+}
+.style-area {
+  height: 290px;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.style-text {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 35px;
+  margin-bottom: 20px;
+}
+
+.border {
+  height: 1px;
+  width: 100%;
+  border-width: 0;
+  background-color: rgb(214, 211, 211);
+}
+
+.style-area h1 {
+  font-size: 55px;
+  font-weight: 100;
+}
+.style-area p {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: -24px;
+}
+
+.recipe-container {
+  display: block;
+  padding: 1px;
+  margin: 7px;
+  line-height: 0.7;
+  text-decoration: none;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.title-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(5, 137, 224);
+  padding-left: 20px;
+}
+
+.summary-text {
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 20px;
+  color: #111111ba;
+}
+
+.body .button {
+  background-color: #23272b;
+  border-radius: 6px;
+  padding: 10px 15px;
+  color: #ffffff;
+  border-color: #23272b;
+  font-size: small;
+  margin: 15px;
+}
+
+.body .button:hover {
+  background-color: #343a40;
+}
+/* end home page */
+
+/* start edit page */
+
+.edit-body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(241, 241, 241);
+}
+
+.global-edit-container {
+  width: 70%;
+  margin: 30px auto;
+}
+
+#home-button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#home-button {
+  background-color: #0069d9;
+  border-radius: 6px;
+  padding: 10px 15px;
+  color: #ffffff;
+  border-color: #0069d9;
+  font-size: small;
+}
+
+.title-body {
+  display: grid;
+}
+
+.global-edit-container .main-text,
+.ingredients-container h2,
+.global-edit-container .body-text,
+.danger-zone .denger-zone-text {
+  font-weight: 500;
+}
+.title-body #title {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border-bottom: 4.5px solid #d8bcc74f;
+}
+
+.title-body #text-area {
+  padding: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 5px;
+  background-color: #fffafa;
+  border-bottom: 4.5px solid #d8bcc74f;
+}
+
+.ing-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  background-color: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+}
+.ing-text {
+  margin: 5px;
+}
+
+.remove-ing-button {
+  background-color: #ff3347;
+  border-radius: 18px;
+  font-size: 13px;
+  border-color: #dc3545;
+  padding: 0 7px;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  border-width: 1px;
+}
+
+.remove-ing-button:hover {
+  background-color: #ff1f36;
+}
+
+.add-ingredients #new-ingredients {
+  margin-top: 10px;
+  margin-right: 5px;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #fcf6f8;
+  border-color: rgb(237, 243, 242);
+}
+.add-ingredients .button {
+  background-color: #0069d9;
+  border-radius: 6px;
+  padding: 10px 15px;
+  color: #ffffff;
+  border-color: #0069d9;
+  font-size: small;
+}
+
+.add-ingredients .button:hover {
+  background-color: #0d5eaf;
+}
+
+.danger-zone .delete-recipe {
+  border-radius: 6px;
+  padding: 10px 15px;
+  color: #ff3347;
+  border-color: #ff8888;
+  font-size: small;
+  border-width: 1px;
+  width: 30%;
+}
+
+.danger-zone .delete-recipe:hover {
+  background-color: #f02929;
+  color: #e9ecef;
+}
+/* end edit page */

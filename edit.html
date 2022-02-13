@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Recipe</title>
+    <link rel="icon" href="images\halo-halo.png" />
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+  </head>
+  <body class="edit-body">
+    <div class="global-edit-container">
+      <button id="home-button">
+        <a href="./index.html">Home</a>
+      </button>
+      <h1 class="main-text">View and edit your recipe</h1>
+      <div class="title-body">
+        <input type="text" name="title" id="title" placeholder="Recipe Title" />
+        <h2 class="body-text">Directions:</h2>
+        <textarea
+          name="text-area"
+          id="text-area"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <div class="ingredients-container">
+        <h2>Ingredients</h2>
+        <div class="ingerdients-area"></div>
+      </div>
+      <form class="add-ingredients">
+        <input
+          type="text"
+          id="new-ingredients"
+          placeholder="Add new ingredients"
+          name="newIngredient"
+        />
+        <button class="button">Add</button>
+      </form>
+      <div class="danger-zone">
+        <h2 class="denger-zone-text">Denger Zone</h2>
+        <button class="delete-recipe">Delete Recipe</button>
+      </div>
+    </div>
+    <script src="./scripts/uuidv.js"></script>
+    <script src="./scripts/recipe-functions.js"></script>
+    <script src="./scripts/edit.js"></script>
+  </body>
+</html>

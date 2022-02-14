@@ -7,8 +7,9 @@ This application allows you to store and manage your favorite recipes. Each reci
 - Checking whether you have those ingredients in stock
 - Remove ingredients
 
-Home Page / My Recipes Page
+### Home Page / My Recipes Page
 
+![Untitled png1](https://user-images.githubusercontent.com/92885872/153822544-7c436185-90c8-4031-a529-be70740aec3b.png)
 
 
 
